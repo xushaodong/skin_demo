@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/text_background">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/home_six_2"/>
+
+    <TextView
+        android:id="@+id/tv_main_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_main"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/iv_main"
+        android:text="众里寻她"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/iv_main"
+        android:text="远大前程，北京方便面"
+        android:textColor="@color/msg_background_color"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

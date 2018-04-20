@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_background">#ffffffff</color>
+    <color name="text_color">#ff333333</color>
+    <color name="t1_3_background">#3F9FE0</color>
+    <color name="background">#f2f4f5</color>
+    <color name="text_color_tip">#ce3d3a</color>
+    <color name="t1_8_background">#E45171</color>
+    <color name="msg_background_color">#cd3d3a</color>
+
+    <!-- flyco tab layout -->
+    <color name="textColorPrimary">#ff333333</color>
+</resources>
